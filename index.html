@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Sample Page</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+            border: 2px solid #ddd;
+        }
+
+        header {
+            text-align: center;
+            font-size: 25px;
+            padding: 10px;
+            border-bottom: 2px solid black;
+        }
+
+        section {
+            padding: 10px;
+        }
+
+        .text {
+            color: coral;
+        }
+
+        footer {
+            border-top: 2px solid black;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        HEADING
+    </header>
+
+    <section>
+
+        <h1>Heading1</h1>
+
+        <h2>Sub heading1</h2>
+
+        <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.
+            Duis vulputate commodo lectus, ac blandit elit tincidunt id.
+            Sed rhoncus, tortor sed eleifend tristique, tortor mauris
+            molestie elit, et lacinia ipsum quam nec dui.
+        </p>
+
+        <a href="mailto:example@gmail.com">E-MAIL</a>
+        <br>
+
+        <a href="tel:9876543210">Phone no</a>
+
+        <br><br>
+
+        <!-- Clickable Image -->
+        <a href="https://www.google.com">
+            <img src="image.jpeg"
+                 alt="Clickable Image"
+                 width="90"
+                 height="65">
+        </a>
+
+        <span>Clickable Image</span>
+
+
+        <h1>Heading 2</h1>
+
+        <h2>Sub heading2</h2>
+
+
+        <!-- Table -->
+        <table border="1">
+
+            <tr>
+                <td>Row 1 - Col 1</td>
+                <td>Row 1 - Col 2</td>
+                <td>Row 1 - Col 3</td>
+                <td rowspan="4">
+                    Row 1, 2, 3 & 4 - Col 4
+                </td>
+            </tr>
+
+            <tr>
+                <td>Row 2 - Col 1</td>
+                <td colspan="2" rowspan="2">
+                    Row 2, 3 & 4 - Col 2 & 3
+                </td>
+            </tr>
+
+            <tr>
+                <td>Row 3 - Col 1</td>
+            </tr>
+
+            <tr>
+                <td>Row 4 - Col 1</td>
+                <td colspan="2">
+                    Row 4 - Col 2 & 3
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    Row 5 - Col 1 & 2
+                </td>
+
+                <td colspan="2">
+                    Row 5 - Col 3 & 4
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="4">
+                    Row 6 - Col 1, 2, 3 & 4
+                </td>
+            </tr>
+
+        </table>
+
+
+        <p>
+            This is a fairly complicated mixed list created in HTML.
+        </p>
+
+
+        <!-- List -->
+        <ul>
+
+            <li>
+                First item
+
+                <ol>
+                    <li>First item of the nested list</li>
+                    <li>
+                        Second item of the nested list
+
+                        <ul>
+                            <li>This item is nested even further</li>
+                            <li>
+                                And this one too
+
+                                <ol type="A">
+                                    <li>First item of yet another numbered list</li>
+                                    <li>Second item of yet another numbered list</li>
+                                </ol>
+
+                            </li>
+                        </ul>
+
+                    </li>
+                </ol>
+
+            </li>
+
+            <li>Second item</li>
+            <li>Third item</li>
+
+        </ul>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <a href="#top">Go to subheading 1</a>
+        &nbsp; | &nbsp;
+        <a href="#top">Go to subheading 2</a>
+
+    </footer>
+
+</body>
+
+</html>
